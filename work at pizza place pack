@@ -1,0 +1,161 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local hauntedb = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local trollb = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local wearb = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local troll2b = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local autofarmb = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local close = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(137, 255, 242)
+Frame.Position = UDim2.new(0.177669123, 0, 0.315866083, 0)
+Frame.Size = UDim2.new(0, 633, 0, 355)
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Size = UDim2.new(0, 633, 0, 55)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Work at a pizza place for good executor pack"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+hauntedb.Name = "hauntedb"
+hauntedb.Parent = Frame
+hauntedb.BackgroundColor3 = Color3.fromRGB(255, 78, 47)
+hauntedb.BackgroundTransparency = 0.800
+hauntedb.Position = UDim2.new(0.0900473967, 0, 0.284507036, 0)
+hauntedb.Size = UDim2.new(0, 200, 0, 50)
+hauntedb.Font = Enum.Font.SourceSans
+hauntedb.Text = "haunted"
+hauntedb.TextColor3 = Color3.fromRGB(0, 0, 0)
+hauntedb.TextScaled = true
+hauntedb.TextSize = 14.000
+hauntedb.TextWrapped = true
+hauntedb.MouseButton1Click:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/gNWAeNUX"))()--https://pastebin.com/raw/gNWAeNUX
+end)
+UICorner.CornerRadius = UDim.new(0.5, 8)
+UICorner.Parent = hauntedb
+
+trollb.Name = "trollb"
+trollb.Parent = Frame
+trollb.BackgroundColor3 = Color3.fromRGB(255, 78, 47)
+trollb.BackgroundTransparency = 0.800
+trollb.Position = UDim2.new(0.563981056, 0, 0.284507036, 0)
+trollb.Size = UDim2.new(0, 200, 0, 50)
+trollb.Font = Enum.Font.SourceSans
+trollb.Text = "troll"
+trollb.TextColor3 = Color3.fromRGB(0, 0, 0)
+trollb.TextScaled = true
+trollb.TextSize = 14.000
+trollb.TextWrapped = true
+trollb.MouseButton1Click:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/r91zqDXc"))()
+--r91zqDXc
+
+end)
+UICorner_2.CornerRadius = UDim.new(0.5, 8)
+UICorner_2.Parent = trollb
+
+wearb.Name = "wearb"
+wearb.Parent = Frame
+wearb.BackgroundColor3 = Color3.fromRGB(255, 78, 47)
+wearb.BackgroundTransparency = 0.800
+wearb.Position = UDim2.new(0.0900473967, 0, 0.554929614, 0)
+wearb.Size = UDim2.new(0, 200, 0, 50)
+wearb.Font = Enum.Font.SourceSans
+wearb.Text = "wear item script"
+wearb.TextColor3 = Color3.fromRGB(0, 0, 0)
+wearb.TextScaled = true
+wearb.TextSize = 14.000
+wearb.TextWrapped = true
+wearb.MouseButton1Click:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/J1HKSiVe"))()
+end)
+UICorner_3.CornerRadius = UDim.new(0.5, 8)
+UICorner_3.Parent = wearb
+--J1HKSiVe
+
+troll2b.Name = "troll2b"
+troll2b.Parent = Frame
+troll2b.BackgroundColor3 = Color3.fromRGB(255, 78, 47)
+troll2b.BackgroundTransparency = 0.800
+troll2b.Position = UDim2.new(0.563981056, 0, 0.554929614, 0)
+troll2b.Size = UDim2.new(0, 200, 0, 50)
+troll2b.Font = Enum.Font.SourceSans
+troll2b.Text = "troll 2"
+troll2b.TextColor3 = Color3.fromRGB(0, 0, 0)
+troll2b.TextScaled = true
+troll2b.TextSize = 14.000
+troll2b.TextWrapped = true
+troll2b.MouseButton1Click:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/q817HYb9"))()
+end)
+UICorner_4.CornerRadius = UDim.new(0.5, 8)
+UICorner_4.Parent = troll2b
+--q817HYb9
+
+autofarmb.Name = "autofarmb"
+autofarmb.Parent = Frame
+autofarmb.BackgroundColor3 = Color3.fromRGB(255, 78, 47)
+autofarmb.BackgroundTransparency = 0.800
+autofarmb.Position = UDim2.new(0.0900473967, 0, 0.774647892, 0)
+autofarmb.Size = UDim2.new(0, 200, 0, 50)
+autofarmb.Font = Enum.Font.SourceSans
+autofarmb.Text = "autofarm"
+autofarmb.TextColor3 = Color3.fromRGB(0, 0, 0)
+autofarmb.TextScaled = true
+autofarmb.TextSize = 14.000
+autofarmb.TextWrapped = true
+autofarmb.MouseButton1Click:connect(function()
+loadstring(game:HttpGet("https://gist.githubusercontent.com/TurkOyuncu99/9b9d62e9068d795f708c51551d439d21/raw/84a28a8d1fc501b9d200e8a2bd7cc831df0fbacf/gistfile1.txt"))()
+end)
+UICorner_5.CornerRadius = UDim.new(0.5, 8)
+UICorner_5.Parent = autofarmb
+--TY718ngH
+
+close.Name = "close"
+close.Parent = Frame
+close.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+close.BackgroundTransparency = 0.600
+close.Position = UDim2.new(0.905213296, 0, 0.154929578, 0)
+close.Size = UDim2.new(0, 60, 0, 60)
+close.Font = Enum.Font.SourceSans
+close.Text = "x"
+close.TextColor3 = Color3.fromRGB(255, 0, 0)
+close.TextScaled = true
+close.TextSize = 14.000
+close.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+close.TextWrapped = true
+
+-- Scripts:
+
+local function FHSEB_fake_script() -- close.Script 
+	local script = Instance.new('Script', close)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		script.Parent.Parent.Visible = false
+	
+	end)
+	
+	
+	
+	
+end
+coroutine.wrap(FHSEB_fake_script)()
